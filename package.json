@@ -1,0 +1,20 @@
+{
+    "name": "hotel_review_system",
+    "version": "1.0.0",
+    "description": "CS 546 Web Programming I: Final Project",
+    "main": "app.js",
+    "scripts": {
+        "seed": "node ./tasks/seed.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "Udit Patel",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^6.0.1",
+        "express-session": "^1.17.2",
+        "handlebars": "^4.7.7",
+        "mongodb": "^4.2.0"
+    }
+}
